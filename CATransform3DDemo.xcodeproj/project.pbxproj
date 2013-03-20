@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DF46C1816F960CB00440D65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF46C1716F960CB00440D65 /* UIKit.framework */; };
+		4DF46C1A16F960CB00440D65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF46C1916F960CB00440D65 /* Foundation.framework */; };
+		4DF46C1C16F960CB00440D65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF46C1B16F960CB00440D65 /* CoreGraphics.framework */; };
+		4DF46C2216F960CB00440D65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DF46C2016F960CB00440D65 /* InfoPlist.strings */; };
+		4DF46C2416F960CB00440D65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF46C2316F960CB00440D65 /* main.m */; };
+		4DF46C2816F960CB00440D65 /* QAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF46C2716F960CB00440D65 /* QAppDelegate.m */; };
+		4DF46C2A16F960CB00440D65 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF46C2916F960CB00440D65 /* Default.png */; };
+		4DF46C2C16F960CB00440D65 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF46C2B16F960CB00440D65 /* Default@2x.png */; };
+		4DF46C2E16F960CB00440D65 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF46C2D16F960CB00440D65 /* Default-568h@2x.png */; };
+		4DF46C3116F960CB00440D65 /* QViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF46C3016F960CB00440D65 /* QViewController.m */; };
+		4DF46C3416F960CB00440D65 /* QViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DF46C3216F960CB00440D65 /* QViewController.xib */; };
+		4DF46C3C16F960CB00440D65 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF46C3B16F960CB00440D65 /* SenTestingKit.framework */; };
+		4DF46C3D16F960CB00440D65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF46C1716F960CB00440D65 /* UIKit.framework */; };
+		4DF46C3E16F960CB00440D65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF46C1916F960CB00440D65 /* Foundation.framework */; };
+		4DF46C4616F960CB00440D65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DF46C4416F960CB00440D65 /* InfoPlist.strings */; };
+		4DF46C4916F960CB00440D65 /* CATransform3DDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF46C4816F960CB00440D65 /* CATransform3DDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DF46C3F16F960CB00440D65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DF46C0A16F960CA00440D65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF46C1216F960CB00440D65;
+			remoteInfo = CATransform3DDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DF46C1316F960CB00440D65 /* CATransform3DDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATransform3DDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF46C1716F960CB00440D65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4DF46C1916F960CB00440D65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4DF46C1B16F960CB00440D65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4DF46C1F16F960CB00440D65 /* CATransform3DDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CATransform3DDemo-Info.plist"; sourceTree = "<group>"; };
+		4DF46C2116F960CB00440D65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4DF46C2316F960CB00440D65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DF46C2516F960CB00440D65 /* CATransform3DDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CATransform3DDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4DF46C2616F960CB00440D65 /* QAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QAppDelegate.h; sourceTree = "<group>"; };
+		4DF46C2716F960CB00440D65 /* QAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QAppDelegate.m; sourceTree = "<group>"; };
+		4DF46C2916F960CB00440D65 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4DF46C2B16F960CB00440D65 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4DF46C2D16F960CB00440D65 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4DF46C2F16F960CB00440D65 /* QViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QViewController.h; sourceTree = "<group>"; };
+		4DF46C3016F960CB00440D65 /* QViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QViewController.m; sourceTree = "<group>"; };
+		4DF46C3316F960CB00440D65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QViewController.xib; sourceTree = "<group>"; };
+		4DF46C3A16F960CB00440D65 /* CATransform3DDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATransform3DDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF46C3B16F960CB00440D65 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4DF46C4316F960CB00440D65 /* CATransform3DDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CATransform3DDemoTests-Info.plist"; sourceTree = "<group>"; };
+		4DF46C4516F960CB00440D65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4DF46C4716F960CB00440D65 /* CATransform3DDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATransform3DDemoTests.h; sourceTree = "<group>"; };
+		4DF46C4816F960CB00440D65 /* CATransform3DDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATransform3DDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DF46C1016F960CB00440D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF46C1816F960CB00440D65 /* UIKit.framework in Frameworks */,
+				4DF46C1A16F960CB00440D65 /* Foundation.framework in Frameworks */,
+				4DF46C1C16F960CB00440D65 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF46C3616F960CB00440D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF46C3C16F960CB00440D65 /* SenTestingKit.framework in Frameworks */,
+				4DF46C3D16F960CB00440D65 /* UIKit.framework in Frameworks */,
+				4DF46C3E16F960CB00440D65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DF46C0816F960CA00440D65 = {
+			isa = PBXGroup;
+			children = (
+				4DF46C1D16F960CB00440D65 /* CATransform3DDemo */,
+				4DF46C4116F960CB00440D65 /* CATransform3DDemoTests */,
+				4DF46C1616F960CB00440D65 /* Frameworks */,
+				4DF46C1416F960CB00440D65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DF46C1416F960CB00440D65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DF46C1316F960CB00440D65 /* CATransform3DDemo.app */,
+				4DF46C3A16F960CB00440D65 /* CATransform3DDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DF46C1616F960CB00440D65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DF46C1716F960CB00440D65 /* UIKit.framework */,
+				4DF46C1916F960CB00440D65 /* Foundation.framework */,
+				4DF46C1B16F960CB00440D65 /* CoreGraphics.framework */,
+				4DF46C3B16F960CB00440D65 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DF46C1D16F960CB00440D65 /* CATransform3DDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4DF46C2616F960CB00440D65 /* QAppDelegate.h */,
+				4DF46C2716F960CB00440D65 /* QAppDelegate.m */,
+				4DF46C2F16F960CB00440D65 /* QViewController.h */,
+				4DF46C3016F960CB00440D65 /* QViewController.m */,
+				4DF46C3216F960CB00440D65 /* QViewController.xib */,
+				4DF46C1E16F960CB00440D65 /* Supporting Files */,
+			);
+			path = CATransform3DDemo;
+			sourceTree = "<group>";
+		};
+		4DF46C1E16F960CB00440D65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DF46C1F16F960CB00440D65 /* CATransform3DDemo-Info.plist */,
+				4DF46C2016F960CB00440D65 /* InfoPlist.strings */,
+				4DF46C2316F960CB00440D65 /* main.m */,
+				4DF46C2516F960CB00440D65 /* CATransform3DDemo-Prefix.pch */,
+				4DF46C2916F960CB00440D65 /* Default.png */,
+				4DF46C2B16F960CB00440D65 /* Default@2x.png */,
+				4DF46C2D16F960CB00440D65 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DF46C4116F960CB00440D65 /* CATransform3DDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DF46C4716F960CB00440D65 /* CATransform3DDemoTests.h */,
+				4DF46C4816F960CB00440D65 /* CATransform3DDemoTests.m */,
+				4DF46C4216F960CB00440D65 /* Supporting Files */,
+			);
+			path = CATransform3DDemoTests;
+			sourceTree = "<group>";
+		};
+		4DF46C4216F960CB00440D65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DF46C4316F960CB00440D65 /* CATransform3DDemoTests-Info.plist */,
+				4DF46C4416F960CB00440D65 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DF46C1216F960CB00440D65 /* CATransform3DDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF46C4C16F960CB00440D65 /* Build configuration list for PBXNativeTarget "CATransform3DDemo" */;
+			buildPhases = (
+				4DF46C0F16F960CB00440D65 /* Sources */,
+				4DF46C1016F960CB00440D65 /* Frameworks */,
+				4DF46C1116F960CB00440D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CATransform3DDemo;
+			productName = CATransform3DDemo;
+			productReference = 4DF46C1316F960CB00440D65 /* CATransform3DDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DF46C3916F960CB00440D65 /* CATransform3DDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF46C4F16F960CB00440D65 /* Build configuration list for PBXNativeTarget "CATransform3DDemoTests" */;
+			buildPhases = (
+				4DF46C3516F960CB00440D65 /* Sources */,
+				4DF46C3616F960CB00440D65 /* Frameworks */,
+				4DF46C3716F960CB00440D65 /* Resources */,
+				4DF46C3816F960CB00440D65 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF46C4016F960CB00440D65 /* PBXTargetDependency */,
+			);
+			name = CATransform3DDemoTests;
+			productName = CATransform3DDemoTests;
+			productReference = 4DF46C3A16F960CB00440D65 /* CATransform3DDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DF46C0A16F960CA00440D65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Q;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = liubinbin;
+			};
+			buildConfigurationList = 4DF46C0D16F960CB00440D65 /* Build configuration list for PBXProject "CATransform3DDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4DF46C0816F960CA00440D65;
+			productRefGroup = 4DF46C1416F960CB00440D65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DF46C1216F960CB00440D65 /* CATransform3DDemo */,
+				4DF46C3916F960CB00440D65 /* CATransform3DDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DF46C1116F960CB00440D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF46C2216F960CB00440D65 /* InfoPlist.strings in Resources */,
+				4DF46C2A16F960CB00440D65 /* Default.png in Resources */,
+				4DF46C2C16F960CB00440D65 /* Default@2x.png in Resources */,
+				4DF46C2E16F960CB00440D65 /* Default-568h@2x.png in Resources */,
+				4DF46C3416F960CB00440D65 /* QViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF46C3716F960CB00440D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF46C4616F960CB00440D65 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DF46C3816F960CB00440D65 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DF46C0F16F960CB00440D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF46C2416F960CB00440D65 /* main.m in Sources */,
+				4DF46C2816F960CB00440D65 /* QAppDelegate.m in Sources */,
+				4DF46C3116F960CB00440D65 /* QViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF46C3516F960CB00440D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF46C4916F960CB00440D65 /* CATransform3DDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DF46C4016F960CB00440D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF46C1216F960CB00440D65 /* CATransform3DDemo */;
+			targetProxy = 4DF46C3F16F960CB00440D65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DF46C2016F960CB00440D65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DF46C2116F960CB00440D65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4DF46C3216F960CB00440D65 /* QViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DF46C3316F960CB00440D65 /* en */,
+			);
+			name = QViewController.xib;
+			sourceTree = "<group>";
+		};
+		4DF46C4416F960CB00440D65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DF46C4516F960CB00440D65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DF46C4A16F960CB00440D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DF46C4B16F960CB00440D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DF46C4D16F960CB00440D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CATransform3DDemo/CATransform3DDemo-Prefix.pch";
+				INFOPLIST_FILE = "CATransform3DDemo/CATransform3DDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4DF46C4E16F960CB00440D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CATransform3DDemo/CATransform3DDemo-Prefix.pch";
+				INFOPLIST_FILE = "CATransform3DDemo/CATransform3DDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4DF46C5016F960CB00440D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CATransform3DDemo.app/CATransform3DDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CATransform3DDemo/CATransform3DDemo-Prefix.pch";
+				INFOPLIST_FILE = "CATransform3DDemoTests/CATransform3DDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4DF46C5116F960CB00440D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CATransform3DDemo.app/CATransform3DDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CATransform3DDemo/CATransform3DDemo-Prefix.pch";
+				INFOPLIST_FILE = "CATransform3DDemoTests/CATransform3DDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DF46C0D16F960CB00440D65 /* Build configuration list for PBXProject "CATransform3DDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF46C4A16F960CB00440D65 /* Debug */,
+				4DF46C4B16F960CB00440D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF46C4C16F960CB00440D65 /* Build configuration list for PBXNativeTarget "CATransform3DDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF46C4D16F960CB00440D65 /* Debug */,
+				4DF46C4E16F960CB00440D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4DF46C4F16F960CB00440D65 /* Build configuration list for PBXNativeTarget "CATransform3DDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF46C5016F960CB00440D65 /* Debug */,
+				4DF46C5116F960CB00440D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DF46C0A16F960CA00440D65 /* Project object */;
+}
