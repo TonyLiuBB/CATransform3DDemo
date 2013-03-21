@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface QViewController : UIViewController
+{
+    CGMutablePathRef starPath;
+}
+@property (retain, nonatomic) IBOutlet UIImageView *demoImage;
 
 @end

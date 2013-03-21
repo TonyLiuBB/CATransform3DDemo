@@ -23,6 +23,8 @@
 		4DF46C3E16F960CB00440D65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF46C1916F960CB00440D65 /* Foundation.framework */; };
 		4DF46C4616F960CB00440D65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DF46C4416F960CB00440D65 /* InfoPlist.strings */; };
 		4DF46C4916F960CB00440D65 /* CATransform3DDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF46C4816F960CB00440D65 /* CATransform3DDemoTests.m */; };
+		4DF46C5716F963D000440D65 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF46C5616F963D000440D65 /* QuartzCore.framework */; };
+		4DF46C5916F964B600440D65 /* 龙.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF46C5816F964B600440D65 /* 龙.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		4DF46C4516F960CB00440D65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4DF46C4716F960CB00440D65 /* CATransform3DDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATransform3DDemoTests.h; sourceTree = "<group>"; };
 		4DF46C4816F960CB00440D65 /* CATransform3DDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATransform3DDemoTests.m; sourceTree = "<group>"; };
+		4DF46C5616F963D000440D65 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4DF46C5816F964B600440D65 /* 龙.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "龙.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF46C5716F963D000440D65 /* QuartzCore.framework in Frameworks */,
 				4DF46C1816F960CB00440D65 /* UIKit.framework in Frameworks */,
 				4DF46C1A16F960CB00440D65 /* Foundation.framework in Frameworks */,
 				4DF46C1C16F960CB00440D65 /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +111,7 @@
 		4DF46C1616F960CB00440D65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DF46C5616F963D000440D65 /* QuartzCore.framework */,
 				4DF46C1716F960CB00440D65 /* UIKit.framework */,
 				4DF46C1916F960CB00440D65 /* Foundation.framework */,
 				4DF46C1B16F960CB00440D65 /* CoreGraphics.framework */,
@@ -117,6 +123,7 @@
 		4DF46C1D16F960CB00440D65 /* CATransform3DDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4DF46C5816F964B600440D65 /* 龙.png */,
 				4DF46C2616F960CB00440D65 /* QAppDelegate.h */,
 				4DF46C2716F960CB00440D65 /* QAppDelegate.m */,
 				4DF46C2F16F960CB00440D65 /* QViewController.h */,
@@ -237,6 +244,7 @@
 				4DF46C2C16F960CB00440D65 /* Default@2x.png in Resources */,
 				4DF46C2E16F960CB00440D65 /* Default-568h@2x.png in Resources */,
 				4DF46C3416F960CB00440D65 /* QViewController.xib in Resources */,
+				4DF46C5916F964B600440D65 /* 龙.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
